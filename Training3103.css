@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  font-family: arial,serif;
+}
+
+
+div.myHeader {
+  background: #999;
+  text-align: center;
+  padding: 20px;
+}
+
+h1#headerH1{
+  margin: 10px;
+  background: yellow; // for checking layout
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+h2#headerH2{
+  margin: 10px;
+  background: blue; // for checking layout
+  font-weight: normal;
+  font-size: 10pt;
+  font-style: oblique;
+
+}
+
+footer {
+  clear: both;
+}
