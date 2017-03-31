@@ -12,20 +12,68 @@ div.myHeader {
 
 h1#headerH1{
   margin: 10px;
-  background: yellow; // for checking layout
+  // background: yellow; // for checking layout
   font-weight: bold;
   font-size: 15pt;
 }
 
 h2#headerH2{
   margin: 10px;
-  background: blue; // for checking layout
+  // background: blue; for checking layout
   font-weight: normal;
   font-size: 10pt;
   font-style: oblique;
+}
+
+div.myNavi{
+  margin: 0;
+  background: black;
+  padding: 15px 15px 15px 0;
+}
+
+h1#naviH1{
+  margin: 10px;
+  // background: yellow; // for checking layout
+  font-weight: bold;
+  font-size: 15pt;
+  display: inline-block;
+  color: grey;
+}
+
+nav ul{
+  display: inline-block;
+  margin: 0;
+  // background: brown;
+  padding:0;
+}
+
+nav ul li{
+  display: inline-block;
+  margin:5px;
+  // background: blue;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+div.row{
 
 }
 
-footer {
+div.col{
+  background: black;
+  margin: .15%;
+  width: 33%;
+  float: left;
+  color: white;
+  text-align: center;
+}
+
+div.myFooter {
   clear: both;
+  margin: 50px 0 0 0;
+  background: grey;
+  padding: 15px;
 }
