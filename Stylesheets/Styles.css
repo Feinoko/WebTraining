@@ -7,6 +7,11 @@
   border: 0;
 }
 
+div {
+  margin:0;
+  padding:0;
+}
+
 body {
   background-color: #dee1e5;
 }
@@ -18,8 +23,69 @@ body {
   border: 1px solid grey;
 }
 
+.logoWrap {
+  float: left;
+  width=30%;
+  padding:0;
+}
+
+#logoImg {
+  border: 2px solid black;
+}
+
 #h1Header{
   text-align: center;
-  color: grey;
+  color: #ff9021;
   font-style: oblique;
+  margin-bottom: 30px;
+  text-shadow: 3px 3px 3px #a5a5a5;
+}
+
+.navBar {
+  width: 55%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 75px;
+  text-align: center;
+}
+
+.navBar div ul {
+  text-decoration: none;
+  display: inline;
+  margin: 0;
+}
+
+.navBar div ul li {
+  display: inline-block;
+  margin-right: 7px;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 175%;
+  border-right: 1px solid black;
+  padding-right: 7px;
+}
+
+#lastNavItem {
+  border: none;
+}
+
+.navBar div ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.navBar div ul li a:hover {color: red;}
+
+footer {
+  clear: both;
+}
+
+@media screen and (max-width: 500px) {
+
+* {
+  display: none;
+}
+
 }
