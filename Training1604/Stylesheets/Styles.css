@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+/* Global */
 * {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -21,6 +22,16 @@ body {
   width: 80%;
   background-color: white;
   border: 1px solid grey;
+}
+
+main {
+  clear: both;
+}
+
+/* header */
+
+header {
+  min-height: 275px;
 }
 
 .logoWrap {
@@ -79,6 +90,29 @@ body {
 
 .navBar div ul li a:hover {color: red;}
 
+/* newsletter */
+.newsletter {
+  clear: both;
+  min-height: 75px;
+  background: #93a3bc;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 15px;
+}
+
+div#newsLabel {
+width: 30%;
+float: left;
+margin: 15px 0 0 15px;
+}
+
+div#newsForm {
+
+}
+
+
+
+/* footer */
 footer {
   clear: both;
 }
